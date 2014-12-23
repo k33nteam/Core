@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{6f71842a-7891-431a-bf3a-44dc019e1ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\internals">
+      <UniqueIdentifier>{03972c76-ddb9-47c4-b5eb-0920194c0f5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\exploitation">
+      <UniqueIdentifier>{16ef4768-01be-40f4-b662-da4432fd9bdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\kernel">
+      <UniqueIdentifier>{98bf2a0d-9b76-43f8-9d3d-c88884923d94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\auto">
+      <UniqueIdentifier>{30424618-d330-40a5-aaac-db2110a613dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\base">
+      <UniqueIdentifier>{04a35b69-ccce-45fb-94ae-7b7aab4c691e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\undoc">
+      <UniqueIdentifier>{d70536fd-5fcc-4e57-9486-d455091c7e11}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Common\exploitation\cclibc.cpp">
+      <Filter>Common\exploitation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\base\State.cpp">
+      <Filter>Common\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\internals\Image.cpp">
+      <Filter>Common\internals</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Common\drv_common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\exploitation\LdrDriver.h">
+      <Filter>Common\exploitation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\auto\DerefPtr.hpp">
+      <Filter>Common\auto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\internals\DriverObject.h">
+      <Filter>Common\internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\internals\DummyDriveObject.hpp">
+      <Filter>Common\internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\auto\AutoPtr.hpp">
+      <Filter>Common\auto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\base\Singleton.hpp">
+      <Filter>Common\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\exploitation\cclibc.h">
+      <Filter>Common\exploitation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\base\State.h">
+      <Filter>Common\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\kernel\Externs.h">
+      <Filter>Common\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\exploitation\extinterface.h">
+      <Filter>Common\exploitation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\kernel\Ppc.hpp">
+      <Filter>Common\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DriverMain.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\internals\Image.h">
+      <Filter>Common\internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\internals\QuerySystemInfo.hpp">
+      <Filter>Common\internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\undoc\SystemInfo.h">
+      <Filter>Common\undoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\undoc\Undoc.h">
+      <Filter>Common\undoc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
