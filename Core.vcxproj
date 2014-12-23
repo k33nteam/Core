@@ -53,7 +53,8 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{8F56699B-2357-48BC-A739-D831F3421C97}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>AttackOnTheCore</RootNamespace>
+    <RootNamespace>Core</RootNamespace>
+    <ProjectName>Core</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
