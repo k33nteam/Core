@@ -1,6 +1,7 @@
 #pragma once
 
 #include <ntifs.h>
+#include <Common/exploitation/extinterface.h>
 
 class CDriver
 {
